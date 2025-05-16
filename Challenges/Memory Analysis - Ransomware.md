@@ -9,4 +9,4 @@ Details: List of commands I utilized throughout the challenge (not in order):
 
 NOTE: I moved the infected.vmem file into my volatility tool's folder for easier access. But in case you haven't done the same, the entire file path should be specified in place of the file name. 
 ![Challenge-Answers-Page](1.1.png)
-![Challenge-Completion-Page](Blue-Team-Labs-Writeup/Screenshots/1.2.png)
+![Challenge-Completion-Page](/Blue-Team-Labs-Writeup/Screenshots/1.2.png)
