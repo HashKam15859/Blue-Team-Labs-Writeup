@@ -1,7 +1,7 @@
 # Memory Analysis - Ransomware
 Difficulty: Medium
 ### Main Tool Used: Volatility3
-Details: List of commands I utilized throughout the challenge (not in order):
+#### Details: List of commands I utilized throughout the challenge (not in order):
 1. python3 vol.py -f infected.vmem windows.psscan (this command lists all of the processes in the memory)
 2. python3 vol.py -f infected.vmen windows.handles --pid [PID] (this command lists all the open handles used by each command)
 3. python3 vol.py -f infected.vmem windows.psscan | grep [PID] (we have piped the grep command with the Process ID to filter out all the entry/ies of that PID from the psscan list)
